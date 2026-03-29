@@ -1,0 +1,30 @@
+Title: Resume Screening System using Machine Learning
+
+Introduction:
+In today's job market, companies receive a large number of resumes for a single position. Manually screening these resumes takes a lot of time and effort. This project aims to automate the resume screening process using machine learning techniques.
+
+Objective:
+The main objective of this project is to classify resumes as suitable or not suitable for a job role based on their content.
+
+Dataset:
+The dataset used in this project contains resume text and corresponding labels. The labels indicate whether a resume is suitable (1) or not suitable (0).
+
+Methodology:
+First, the dataset is loaded and preprocessed. Text cleaning is performed by converting text to lowercase, removing punctuation, numbers, and stopwords.
+
+After cleaning, the text data is converted into numerical form using TF-IDF vectorization.
+
+The dataset is then split into training and testing sets in an 80:20 ratio.
+
+A Logistic Regression model is used for classification. The model is trained on the training data and evaluated on the testing data.
+
+Results:
+The model achieves a reasonable accuracy in classifying resumes. It is also tested using custom input to check real-time predictions.
+
+Conclusion:
+This project demonstrates how machine learning can be applied in recruitment processes. It reduces manual effort and speeds up resume screening.
+
+Future Scope:
+- Use more advanced models like Random Forest or Neural Networks
+- Improve dataset quality
+- Build a web-based interface for real-world use
